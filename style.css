@@ -1,3 +1,6 @@
+body{
+    background-color: aqua;
+}
 h1{
     text-align:center;
     background-color:blue;
@@ -54,4 +57,27 @@ td{
 label{
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
+}
+
+:link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+  .flex-container {
+    display: flex;
+    background-color: aqua;
+  }
+  
+  .flex-container > div {
+    background-color: lightcyan;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  @media (max-width: 1000px) {
+    .flex-container {
+      flex-direction: column;
+    }
 }
